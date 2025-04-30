@@ -43,11 +43,11 @@ git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git ,cd YOUR-REPO-NAME
  ## 2. Configure the Database
 
 Update your application.properties:
-spring.datasource.url=jdbc:mysql://localhost:3306/todo_db
+`spring.datasource.url=jdbc:mysql://localhost:3306/todo_db
 spring.datasource.username=your_mysql_username
 spring.datasource.password=your_mysql_password
 spring.jpa.hibernate.ddl-auto=update
-
+`
 ## 3. Run the Application
 `./mvnw spring-boot:run
 or
